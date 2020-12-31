@@ -19,7 +19,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 st.title('Iris')
-df = pd.read_csv("Downloads/iris.csv")
+url = " https://bit.ly/3kXTdox" # Reading the dataset from remote link
+df = pd.read_csv(url)
 if st.checkbox('Show dataframe'):
     
     
